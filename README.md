@@ -2,23 +2,23 @@
 
 10 Distributed Workflows Rys Git Tutorial
 
-# 10. [Distributed Workflows]()
- * [Create a Bitbucket Account]()
- * [Create a Public Repository (you)]()
- * [Push to a Public Repository (you)]()
- * [Browse the Public Repository (you)]()
- * [Clone the Repository (John]()
- * [Add the Pink Page (John)]()
- * [Publish the Pink Page (John)]()
- * [View John's Contributions (you)]()
- * [Integrate John's Contributions (you)]()
- * [Publish John's Contributions (you)]()
- * [Update Mary's Repository (Mary)]()
- * [Update John's Repository (John)]()
- * [Conclusion]()
+# 10. [Distributed Workflows](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows---intro)
+ * [Create a Bitbucket Account](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-create-a-bitbucket-accounthttps://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-create-a-public-repository-you)
+ * [Create a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-push-to-a-public-repository-you)
+ * [Push to a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-push-to-a-public-repository-you)
+ * [Browse the Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-browse-the-public-repository-you)
+ * [Clone the Repository (John](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-clone-the-repository-john)
+ * [Add the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-add-the-pink-page-john)
+ * [Publish the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-publish-the-pink-page-john)
+ * [View John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-view-johns-contributions-you)
+ * [Integrate John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-integrate-johns-contributions-you)
+ * [Publish John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-publish-johns-contributions-you)
+ * [Update Mary's Repository (Mary)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-update-marys-repository-mary)
+ * [Update John's Repository (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-update-johns-repository-john)
+ * [Conclusion](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-conclusion)
 
 
-# 10. [Distributed workflows - Intro]()
+# 10. [Distributed workflows - Intro](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Now that we know how to share information via a centralized workflow, we can appreciate some of the drawbacks of this collaboration model. While it may be convenient, allowing everyone to push to an **"official"** repository raises some legitimate security concerns. It means that for everyone to contribute content, they need access to the **entire project**.
 
@@ -28,20 +28,20 @@ But, what you can do is tell the contributor to push the changes to **their own*
 
 ![Screen Shot 2020-06-17 at 10 46 40](https://user-images.githubusercontent.com/24994818/84919664-d9d65f80-b087-11ea-9d7f-24901176d75b.png)
 
-In this module, we will experience all of this first-hand by creating a free public repository on Bit-bucket.org and incorporating a contribution from an anonymous developer named John. Bitbucket is a DVCS hosting provider that makes it very easy to set up a Git repository and start collaborating with a team of developers.
+In this module, we will experience all of this first-hand by creating a free public repository on Bit-bucket.org and incorporating a contribution from an anonymous developer named John. Bitbucket is a **DVCS** hosting provider that makes it very easy to set up a Git repository and start collaborating with a team of developers.
 
-# 	* [Create a Bitbucket Account]()
+# 	* [Create a Bitbucket Account](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
-You can choose any username for your account, but the email address should match the one you assigned to your git installation with **git config** in [The basics](). If you need to change your email, you can run another **git config --global user.mail yoy@example.com** command.
+You can choose any username for your account, but the email address should match the one you assigned to your git installation with **git config** in [The basics](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows). If you need to change your email, you can run another **git config --global user.mail yoy@example.com** command.
 
 ```console
 Thu Jun 18 ~/iOS/RysGitTutorialRepository/.git 
 $ git config --global user.email c.santiago.cruz@icloud.com
 ```
 
-# 	* [Create a Public Repository (you)]()
+# 	* [Create a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
-To create our first nerworked Git repository, log into your Bitbucket account, and navigate to **Repositories - Create repository**. 
+To create our first networked Git repository, log into your Bitbucket account, and navigate to **Repositories - Create repository**. 
 
 ![Screen Shot 2020-06-18 at 10 21 51](https://user-images.githubusercontent.com/24994818/85039654-90504800-b14d-11ea-8cbd-cdfc61d51c02.png)
 
@@ -53,7 +53,7 @@ After initialization, Bitbucket offers some helpful instructions, but don't foll
 
 ![Screen Shot 2020-06-18 at 10 29 52](https://user-images.githubusercontent.com/24994818/85040678-aa3e5a80-b14e-11ea-8c4e-e5d5f691a99a.png)
 
-# 	* [Push to a Public Repository (you)]()
+# 	* [Push to a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Before populating this new repository with our existing my git repository project, we firs need to point our **origin remote** to the Bitbucket repository. Be sure to change the userName portion to your actual Bitbucket userName.
 
@@ -89,7 +89,7 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
-As you can see, and if you remember the creation a README file, the origin and the local is not the same, to overwrite what you have in you local repository pass the -f flag to pussh to force the push command.
+As you can see, and if you remember the creation a **README** file, the origin and the local is not the same, to overwrite what you have in you local repository pass the -f flag to push to force the push command.
 
 ```console
 Thu Jun 18 ~/iOS/RysGitTutorialRepository/.git 
@@ -104,9 +104,9 @@ To https://bitbucket.org/C4rl0sS4nt14g0/rysgittutorialrepository.git
  + bfa132d...450182a master -> master (forced update)
 ```
 
-# 	* [Browse the Public Repository (you)]()
+# 	* [Browse the Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
-We should now be able to see our project on the bitBucket site. The **Source** tab displays all of the files in the project, and the **commits** tab contains the entire commit history. Note that the branch structure of the repository is also visualized to the left of each commit.
+We should now be able to see our project on the **bitBucket** site. The **Source** tab displays all of the files in the project, and the **commits** tab contains the entire commit history. Note that the branch structure of the repository is also visualized to the left of each commit.
 
 ![Screen Shot 2020-06-18 at 11 18 23](https://user-images.githubusercontent.com/24994818/85046031-74e93b00-b155-11ea-81ed-83a45126a70a.png)
 
@@ -114,11 +114,11 @@ This repository now serves as the **"official"** copy our example website. We wi
 
 Having both a public and a private repository for each developer makes it easy to incorporate contributions from third-parties, even if you have never met them before.
 
-# 	* [Clone the Repository (John]()
+# 	* [Clone the Repository (John](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Next we are going to pretend to be John, a third-party contributor to our website. John noticed that we didn't have a pink page and, being the friendly developer that he is, wants to create one for us. We would like to let him contribute, but **we don't want to give him push-access** to our entire repository - this would allow him to re-write or even delete all of our hard word.
 
-Fortunately, John knows how to exploit Bitbucket's collaboration potential. He will start by cloning a copy of our public repository:
+Fortunately, John knows how to exploit **Bitbucket**'s collaboration potential. He will start by cloning a copy of our public repository:
 
 ```console
 Fri Jun 19 ~/iOS/RysGitTutorialRepository 
@@ -130,7 +130,7 @@ Fri Jun 19 ~/iOS/RysGitTutorialRepository
 $ cd ../
 ```
 
-I am going to follow the same pattern name used for all contributors, like RysGitTutorialMarysRepository and RysGitTutorialRepository, giving the name RysGitTutorialJohnsRepository
+I am going to follow the same pattern name used for all contributors, like **RysGitTutorialMarysRepository** and **RysGitTutorialRepository**, giving the name **RysGitTutorialJohnsRepository
 
 ```console
 Fri Jun 19 ~/iOS 
@@ -158,7 +158,7 @@ Fri Jun 19 ~/iOS/RysGitTutorialJohnsRepository
 $ git config user.email john.developer@icloud.com
 ```
  
-# 	* [Add the Pink Page (John)]()
+# 	* [Add the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Of course, John should be developing his contributions in a dedicated feature branch.
 
@@ -223,7 +223,7 @@ $ git commit -m "Add pink page"
  create mode 100644 pink.html
 ```
 
-# 	* [Publish the Pink Page (John)]()
+# 	* [Publish the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Now, John needs to publish this contributions to a public repository. Remember that we don't want him to push or **our** public repository, which is stored in his **origin remote**, which is stored in his **origin remote**. In fact, **he can't push** to origin for reasons we will discuss in a moment.
 
@@ -273,7 +273,7 @@ On the other hand, fetching over HTTP requires no username or password, but push
 
 Of course, if you are working on a private project, anonymous HTTP access would be disable for that repository.
 
-# 	* [View John's Contributions (you)]()
+# 	* [View John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Ok, we are done being John and we are ready to integrate his code into the official project. Let's start by switching back into our repository and adding John's public repository as a remote.
 
@@ -350,7 +350,7 @@ HEAD is now at 51f9d9e Add pink page
 
 Open up the pink.html file to see if it is ok, remember that John is not a trusted collaborator, and we would normally have no idea what this file might contain. With that in mind, It is incredibly important to verify its contents. **Never blindly merge content from a third-party contributor.
 
-# 	* [Integrate John's Contributions (you)]()
+# 	* [Integrate John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Assuming we approve John's updates, we are now ready to merge it into the project.
 
@@ -374,9 +374,9 @@ Notice that is the exact same way we incorporated Mary's changes in the centrali
 
 ![Screen Shot 2020-06-20 at 18 43 42](https://user-images.githubusercontent.com/24994818/85213586-fdb6d100-b325-11ea-9778-1b2f0d9bdaf1.png)
 
-Furthermore, John's workflow is just like ours: develop in a local, private repository, then push changes to the public one. The integrator workflow is merely a standardized way of organizing the collaboration effort - nothing has changed about how we develop locally, and we are using the same Git commands as we have been for the las few modules.
+Furthermore, John's workflow is just like ours: develop in a local, private repository, then push changes to the public one. The integrator workflow is merely a standardized way of organizing the collaboration effort - nothing has changed about how we develop locally, and we are using the same Git commands as we have been for the last few modules.
 
-# 	* [Publish John's Contributions (you)]()
+# 	* [Publish John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 We have integrated John's contribution into our local git repository, but no one else knows what we have done, It is time to publish our master branch again.
 
@@ -398,7 +398,7 @@ To https://bitbucket.org/C4rl0sS4nt14g0/rysgittutorialrepository.git
 Since we designated our public Bitbucket repository as the "official" source for our project, everyone (Mary and John) will now be able to synchronize with it.
 
 
-# 	* [Update Mary's Repository (Mary)]()
+# 	* [Update Mary's Repository (Mary)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 Mary should now be pulling changes from our Bitbucket repository instead of the central one from the previous module. This should be fairly easy to her to configure.
 
@@ -419,7 +419,7 @@ Sat Jun 20 ~/iOS/RysGitTutorialMarysRepository
 $ git remote add origin https://C4rl0sS4nt14g0@bitbucket.org/C4rl0sS4nt14g0/rysgittutorialrepository.git
 ```
 
-Again, remember to change userName to your bitbucket account's name. For the sake brevity. we will do a blind merge to add John's updates to Mary's repository (normally, Mary should check what she is integrating before doing so).
+Again, remember to change **userName** to your **bitbucket** account's name. For the sake brevity. we will do a blind merge to add John's updates to Mary's repository (normally, Mary should check what she is integrating before doing so).
 
 ```console
 Sat Jun 20 ~/iOS/RysGitTutorialMarysRepository 
@@ -446,7 +446,7 @@ Applying: Add CSS styles for headings and links
 
 For Mary, it does not really matter that the updates came from John. All she has to know is that the "Official" master branch moved forward, prompting her to synchronize her private repository.
 
-# 	* [Update John's Repository (John)]()
+# 	* [Update John's Repository (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
 John still needs to incorporate the pink page into **his master** branch. He should **not** merge directly from his pink-page topic branch because we could have edited his contribution before publishing it or included other contributions along with it. Instead, **he will pull from the "official" master**:
 
@@ -487,9 +487,9 @@ If John had updated **master** directly from his local pink-page, it could have 
 
 ![Screen Shot 2020-06-20 at 19 23 27](https://user-images.githubusercontent.com/24994818/85214018-97cd4800-b32b-11ea-91b8-35491a0ab6e6.png)
 
-# 	* [Conclusion]()
+# 	* [Conclusion](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#10-distributed-workflows)
 
-Using the integrator workflow, our private development process largely remains the same **(Develop a feature branch, merge it into master, and publish it)**. But, we have addedan additional task: incorporating changes from third-party contributors. Luckily, this does not required any new skills - just access to a few more remotes repositories.
+Using the integrator workflow, our private development process largely remains the same **(Develop a feature branch, merge it into master, and publish it)**. But, we have added an additional task: incorporating changes from third-party contributors. Luckily, this does not required any new skills - just access to a few more remotes repositories.
 
 While this setup forces us to keep track of more remotes, it also makes it much, much easier to work with a large number of developers. You will never have to worry about security using an integrator workflow because you will still be the only one with access to the **"official"i** repository.
 

@@ -1,22 +1,22 @@
 # [go back to content](https://github.com/c4arl0s/RysGitTutorial#rys-git-tutorial)
 
 # [10 Distributed Workflows - Content](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#go-back-to-content)
- * [Create a Bitbucket Account](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-create-a-bitbucket-account)
- * [Create a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-push-to-a-public-repository-you)
- * [Push to a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-push-to-a-public-repository-you)
- * [Browse the Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-browse-the-public-repository-you)
- * [Clone the Repository (John](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-clone-the-repository-john)
- * [Add the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-add-the-pink-page-john)
- * [Publish the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-publish-the-pink-page-john)
- * [View John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-view-johns-contributions-you)
- * [Integrate John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-integrate-johns-contributions-you)
- * [Publish John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-publish-johns-contributions-you)
- * [Update Mary's Repository (Mary)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-update-marys-repository-mary)
- * [Update John's Repository (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-update-johns-repository-john)
- * [Conclusion](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-conclusion)
 
-
-# [10 Distributed Workflows]()
+1. [x] [1. Create a Bitbucket Account](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-create-a-bitbucket-account)
+2. [x] [2. Create a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-push-to-a-public-repository-you)
+3. [x] [3. Push to a Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-push-to-a-public-repository-you)
+4. [x] [4. Browse the Public Repository (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-browse-the-public-repository-you)
+5. [x] [5. Clone the Repository (John](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-clone-the-repository-john)
+6. [x] [6. Add the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-add-the-pink-page-john)
+7. [x] [7. Publish the Pink Page (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-publish-the-pink-page-john)
+8. [x] [8. View John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-view-johns-contributions-you)
+9. [x] [9. Integrate John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-integrate-johns-contributions-you)
+10. [x] [10. Publish John's Contributions (you)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-publish-johns-contributions-you)
+11. [x] [11. Update Mary's Repository (Mary)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-update-marys-repository-mary)
+12. [x] [12. Update John's Repository (John)](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-update-johns-repository-john)
+13. [x] [13. Conclusion](https://github.com/c4arl0s/10DistributedWorkflowsRysGitTutorial#-conclusion)
+ 
+# [10 Distributed Workflows](https://github.com/c4arl0s/10DistributedWorkflows#10-distributed-workflows---content)
 
 Now that we know how to share information via a centralized workflow, we can appreciate some of the drawbacks of this collaboration model. **While it may be convenient, allowing everyone to push to an "official" repository raises some legitimate security concerns**. It means that for everyone to contribute content, they need access to the entire project.
 
